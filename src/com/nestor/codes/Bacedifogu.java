@@ -1,7 +1,7 @@
 package com.nestor.codes;
 
 public class Bacedifogu {
-	public String cifrado(String mensaje) {
+	public void cifrado(String mensaje) {
 		String newStr = "";
 
 		for (int i = 0; i < mensaje.length(); i++) {
@@ -42,8 +42,8 @@ public class Bacedifogu {
 				break;
 			}
 		}
-		// System.out.println("Mensaje encriptado: " + newStr + "\t(BACEDIFOGU)");
-		return newStr;
+		System.out.println(newStr + "\t(BACEDIFOGU)");
+		//return newStr;
 	}
 
 }

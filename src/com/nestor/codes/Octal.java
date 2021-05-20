@@ -2,14 +2,15 @@ package com.nestor.codes;
 
 public class Octal {
 	
-	public String cifrado(String mensaje) {
+	public void cifrado(String mensaje) {
 		
 		String octal = "";
 		for (char c : mensaje.toCharArray()) {
 			octal += Integer.toOctalString(c) + " ";
 		}
 		
-		return octal;
+		// return octal;
+		System.out.println(octal + "\t(BACEDIFOGU)");
 	}
 	
 }

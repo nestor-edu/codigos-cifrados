@@ -12,8 +12,8 @@ public class CifradoTestDrive {
 		Bacedifogu encriptado1 = new Bacedifogu();
 		Octal encriptado2 = new Octal();
 		Morse encriptado3 = new Morse();
-		System.out.println(encriptado1.cifrado(texto));
-		System.out.println(encriptado2.cifrado(texto));
-		System.out.println(encriptado3.cifrado(texto));
+		encriptado1.cifrado(texto);
+		encriptado2.cifrado(texto);
+		encriptado3.cifrado(texto);
 	}
 }
