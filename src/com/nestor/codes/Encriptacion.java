@@ -2,7 +2,7 @@ package com.nestor.codes;
 
 public class Encriptacion {
 	public static void main(String[] args) {
-		String mensaje = "socorro";
+		String mensaje = "ayuda";
 		
 		String newStr = "";
 		
@@ -45,6 +45,9 @@ public class Encriptacion {
 			}
 		}
 		System.out.println("Mensaje encriptado: " + newStr + "\t(BACEDIFOGU)");
+		
+		
+		
 	}
 	
 }
