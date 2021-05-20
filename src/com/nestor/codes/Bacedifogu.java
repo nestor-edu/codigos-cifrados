@@ -1,11 +1,9 @@
 package com.nestor.codes;
 
-public class Bacedifogu extends Encriptados {
-	public static void main(String[] args) {
-		String mensaje = "ayuda";
-		
+public class Bacedifogu {
+	public String cifrado(String mensaje) {
 		String newStr = "";
-		
+
 		for (int i = 0; i < mensaje.length(); i++) {
 			char c = Character.toLowerCase(mensaje.charAt(i));
 			switch (c) {
@@ -44,10 +42,8 @@ public class Bacedifogu extends Encriptados {
 				break;
 			}
 		}
-		System.out.println("Mensaje encriptado: " + newStr + "\t(BACEDIFOGU)");
-		
-		
-		
+		// System.out.println("Mensaje encriptado: " + newStr + "\t(BACEDIFOGU)");
+		return newStr;
 	}
-	
+
 }

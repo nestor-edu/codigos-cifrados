@@ -1,7 +1,7 @@
 package com.nestor.codes;
 
-public class Morse extends Encriptados {
-	public static void main(String[] args) {
+public class Morse {
+	public String cifrado(String mensaje) {
 		
 		char[] letra = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',
 				's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', ',', '.',
@@ -26,7 +26,7 @@ public class Morse extends Encriptados {
 				}
 			}
 		}
-		System.out.println("Mensaje encriptado: " + str + "\t(MORSE)");
-
+		// System.out.println("Mensaje encriptado: " + str + "\t(MORSE)");
+		return str;
 	}
 }
