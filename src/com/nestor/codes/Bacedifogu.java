@@ -1,6 +1,6 @@
 package com.nestor.codes;
 
-public class Encriptacion {
+public class Bacedifogu extends Encriptados {
 	public static void main(String[] args) {
 		String mensaje = "ayuda";
 		
